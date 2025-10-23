@@ -427,7 +427,7 @@ const closeImageModal = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
 
-              {[1, 2, 3, 4].map((item) => (
+              {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
                 <div key={item} className="group relative aspect-square overflow-hidden bg-[#1a1a1c] border border-[#D4AF37]/10 hover:border-[#D4AF37] transition-all duration-700 cursor-pointer"
                   onClick={() => openImageModal(`/img/${item}.jpeg`)}
                 >
@@ -525,7 +525,7 @@ const closeImageModal = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {[1, 2, 3, 4].map((item) => (
+            {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
               <div
                 key={item}
                 className="group relative aspect-[3/4] overflow-hidden bg-[#1a1a1c] border border-[#D4AF37]/10 hover:border-[#D4AF37] transition-all duration-700 cursor-pointer"
